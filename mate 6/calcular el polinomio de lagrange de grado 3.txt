@@ -1,0 +1,16 @@
+calcular el polinomio de lagrange de grado 3
+Xi		Yi
+2		0.5103757
+2.2		0.5207893
+2.4		0.5104147
+2.6		0.4813306
+2.8		0.4359160
+p(x) = Yo L30 +Y1 L31 + Y2 L32 +Y3 L33
+
+L30 = (X - X1)(X - X2)(X - X3) / (X0- X1)(X0 - X2)(X0 - X3)
+
+L31 = (X - X0)(X - X2)(X - X3) / (X1- X0)(X1 - X2)(X1 - X3)
+
+l32 = (X - X0)(X - X3)(X - X1) / (X2- X1)(X2 - X0)(X2 - X3)
+
+l33 = (X - X0)(X - X2)(X - X1) / (X3- X1)(X3 - X2)(X3 - X0)
